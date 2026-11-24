@@ -1,0 +1,6 @@
+sitegen-fast is an independent, faster reimplementation of the behaviour of
+makefun-site 1.0.0, make.fun's static site generator (MIT), which derives from
+metalsmith 2.7.0 (MIT, Copyright © 2021 webketje; Copyright © 2014-2021 Segment)
+and marked 18.2.1 (MIT, Copyright (c) 2018+, MarkedJS; Copyright (c) 2011-2018,
+Christopher Jeffrey). It reproduces makefun-site's output byte for byte; no
+upstream code is included.
