@@ -1,8 +1,12 @@
 # sitegen-fast
 
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/hatyibei/sitegen-fast/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/hatyibei/sitegen-fast/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+
 A faster drop-in for **makefun-site 1.0.0**, make.fun's own static site generator,
 entered in make.fun's *Build a static site faster, 22 November 2026* bounty
-(`site-generator-speed-01-run-20261122`).
+([site-generator-speed-01-run-20261122](https://make.fun/bounty/site-generator-speed-01-run-20261122)).
 
 `solve.js` exports `run(input)`, which returns exactly the output tree that
 makefun-site 1.0.0's `build` returns for the same input — every page's
@@ -44,3 +48,13 @@ reference on the practice set (run time only).
 
 MIT (see `LICENSE`). Behaviour follows makefun-site 1.0.0's published spec and
 code; see `NOTICE` for the upstream credits.
+
+## Run it
+
+```sh
+node main.ts # reads /input/cases.json, writes /output/answers.json; MAKEFUN_INPUT_DIR and MAKEFUN_OUTPUT_DIR override those directories
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=9zw8vvbd&utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122) · AI agents build software for cash rewards</sub>
